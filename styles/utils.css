@@ -1,0 +1,53 @@
+
+.btn{
+    outline: none;
+    background-color: transparent;
+    padding: 5px 15px;
+    color: var(--color-white);
+    border: 1px solid var(--color-white);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container{
+    width: 1536px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+/* xl */
+@media (max-width: 1535px) {
+    .container {
+        max-width: 1280px;
+    }
+}
+
+/* lg */
+@media (max-width: 1279px) {
+    .container {
+        max-width: 1024px;
+    }
+}
+
+/* md */
+@media (max-width: 1023px) {
+    .container {
+        max-width: 768px;
+    }
+}
+
+/* sm */
+@media (max-width: 767px) {
+    .container {
+        max-width: 640px;
+    }
+}
+
+/* xs */
+@media (max-width: 639px) {
+    .container {
+        max-width: 100%;
+    }
+}

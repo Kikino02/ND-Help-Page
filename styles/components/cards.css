@@ -1,0 +1,125 @@
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    padding: 150px 0;
+}
+
+.cards .card{
+    width: calc(50% - 65px);
+    display: flex;
+    gap: 50px;
+}
+
+.cards .card:nth-of-type(-n+4){
+    margin-bottom: var(--size-7xl);
+}
+
+.cards .card .card__image{
+    display: flex;
+    align-items: center;
+}
+
+.cards .card .card__image img{
+    width: 90px;
+    height: 90px;
+}
+.cards .card .card__info{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.cards .card .card__info a:hover{
+    text-decoration: underline;
+}
+
+.cards .card .card__info .card__name{
+    font-size: var(--size-xl);
+    font-weight: 700;
+}
+.cards .card .card__info .card__description{
+    font-size: var(--size-xl);
+}
+.cards .card .card__info a{
+    font-size: var(--size-lg);
+    font-weight: 500;
+}
+
+/* lg */
+@media (max-width: 1279px) {
+    .cards .card .card__image{
+        align-items: start;
+    }
+}
+
+/* md */
+@media (max-width: 1023px) {
+    .cards{
+        gap: 30px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    
+    .cards .card{
+        gap: 20px;
+    }
+    
+    .cards .card:nth-of-type(-n+4){
+        margin-bottom: var(--size-5xl);
+    }
+    
+    .cards .card .card__image img{
+        width: 75px;
+        height: 75px;
+    }
+    
+    .cards .card .card__info .card__name{
+        font-size: var(--size-lg);
+    }
+    .cards .card .card__info .card__description{
+        font-size: var(--size-lg);
+    }
+    .cards .card .card__info a{
+        font-size: var(--size-md);
+    }
+}
+
+/* sm */
+@media (max-width: 767px) {
+    .cards{
+        gap: 30px;
+    }
+    
+    .cards .card{
+        width: 100%;
+    }
+    
+    .cards .card:nth-of-type(-n+5){
+        margin-bottom: var(--size-5xl);
+    }
+    
+    .cards .card .card__image{
+        align-items: center;
+    }
+    
+    .cards .card .card__image img{
+        width: 75px;
+        height: 75px;
+    }
+    
+    .cards .card .card__info .card__name{
+        font-size: var(--size-lg);
+    }
+    .cards .card .card__info .card__description{
+        font-size: var(--size-lg);
+    }
+    .cards .card .card__info a{
+        font-size: var(--size-md);
+    }
+}
+
+/* xs */
+@media (max-width: 639px) {
+}
