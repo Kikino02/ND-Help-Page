@@ -58,6 +58,6 @@ main{
         margin-bottom: 1rem;
     }
     .help .inner-container .searchBar .search{
-        font-size: var(--size-md);
+        font-size: var(--size-base);
     }
 }

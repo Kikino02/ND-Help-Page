@@ -8,7 +8,7 @@ footer{
     display: flex;
     flex-wrap: wrap;
     padding-top: 40px;
-    padding-bottom: 80px;
+    padding-bottom: 120px;
 }
 
 .footer .footer-item{
@@ -34,7 +34,7 @@ footer{
     gap: 25px;
 }
 .footer .footer-item .item__sm{
-    font-size: var(--size-md);
+    font-size: var(--size-base);
     margin-top: var(--size-xl);
 }
 .footer .footer-item .item__link-sm{
@@ -106,8 +106,8 @@ footer{
     .footer .footer-item:last-child{
         font-size: var(--size-sm);
         right: 0;
-        bottom: 10px;
-        left: 10px;
+        bottom: 30px;
+        left: 30px;
         width: 100%;
     }
 }

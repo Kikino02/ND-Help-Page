@@ -82,7 +82,7 @@
         font-size: var(--size-lg);
     }
     .cards .card .card__info a{
-        font-size: var(--size-md);
+        font-size: var(--size-base);
     }
 }
 
@@ -116,7 +116,7 @@
         font-size: var(--size-lg);
     }
     .cards .card .card__info a{
-        font-size: var(--size-md);
+        font-size: var(--size-base);
     }
 }
 
