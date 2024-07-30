@@ -1,0 +1,131 @@
+footer {
+    background-color: var(--color-black);
+    color: var(--color-white);
+  }
+  
+  .footer {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    padding-bottom: 120px;
+  
+    .footer-item {
+      display: flex;
+      flex-direction: column;
+      width: 20%;
+  
+      .item__name {
+        font-size: var(--size-xl);
+        margin-bottom: var(--size-lg);
+      }
+  
+      .item__link {
+        color: var(--color-white);
+        font-size: var(--size-sm);
+  
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+  
+      .wrap-items {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+      }
+  
+      .item__sm {
+        font-size: var(--size-base);
+        margin-top: var(--size-xl);
+      }
+  
+      .item__link-sm {
+        font-size: var(--size-sm);
+        color: var(--color-white);
+  
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  
+    .footer-item:last-child {
+      position: absolute;
+      right: -40px;
+      bottom: 30px;
+  
+      p {
+        font-size: var(--size-sm);
+      }
+    }
+  }
+  
+  /* lg */
+  @media (max-width: 1279px) {
+    .footer {
+      gap: 20px;
+  
+      .footer-item {
+        width: 15%;
+  
+        &:last-child {
+          width: 20%;
+          right: 20px;
+          bottom: 30px;
+        }
+      }
+    }
+  }
+  
+  /* md */
+  @media (max-width: 1023px) {
+    .footer {
+      .footer-item {
+        &:last-child {
+          width: 30%;
+          right: -20px;
+        }
+      }
+    }
+  }
+  
+  /* sm */
+  @media (max-width: 767px) {
+    .footer {
+      .footer-item {
+        display: flex;
+        flex-direction: column;
+        width: 35%;
+  
+        &:last-child {
+          p {
+            font-size: var(--size-xs);
+          }
+        }
+      }
+    }
+  }
+  
+  /* xs */
+  @media (max-width: 639px) {
+    .footer {
+      .footer-item {
+        .item__sm {
+          font-size: var(--size-sm);
+        }
+  
+        .item__link-sm {
+          font-size: var(--size-xs);
+        }
+  
+        &:last-child {
+          font-size: var(--size-sm);
+          right: 0;
+          bottom: 30px;
+          left: 30px;
+          width: 100%;
+        }
+      }
+    }
+  }
