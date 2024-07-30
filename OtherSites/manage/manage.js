@@ -4,7 +4,7 @@ import { loadArticle } from '../../reusable-components/article/article.js';
 
 import '../../styles/modern-normalize.css';
 import '../../styles/styles.css';
-import './abstract.scss';
+import './manage.scss'
 import '../../styles/utils.css';
 
 
@@ -13,4 +13,3 @@ document.addEventListener('DOMContentLoaded', () => {
     loadFooter();
     loadArticle();
 })
-
