@@ -1,38 +1,4 @@
-article{
-    padding-top: 60px;
-    padding-bottom: 80px;
-    background-color: var(--color-light-blue);
-    .main{
-        .list{
-            padding-left: 0;
-            list-style: none;
-            li{
-                font-size: var(--size-sm);
-                display: inline-block;
-                a{
-                    color: var(--color-black);
-                    transition: 0.3s ease;
-                    &:hover{
-                        color: var(--color-blue);
-                        text-decoration: underline;
-                    }
-                }
-                &:nth-of-type(2)::before{
-                    padding: 0 10px;
-                    content: "\003E";
-                    color: var(--color-black);
-                }
-            }
-        }
-        .title{
-            font-size: var(--size-7xl);
-            font-weight: 500;
-        }
-        .subtitle{
-            font-size: var(--size-2xl);
-        }
-    }
-}
+
 
 main{
     padding: 100px 0;
