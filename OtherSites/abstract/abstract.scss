@@ -84,19 +84,6 @@ main{
 
 /* md */
 @media (max-width: 1023px) {
-    header nav{
-        font-size: var(--size-xl);
-    }
-    article{
-        .main{
-            .title{
-                font-size: var(--size-6xl);
-            }
-            .subtitle{
-                font-size: var(--size-xl);
-            }
-        }
-    }
     main{
         .wrapper{
             .wrapper-item{
@@ -123,19 +110,6 @@ main{
 
 /* sm */
 @media (max-width: 767px) {
-    header nav{
-        font-size: var(--size-lg);
-    }
-    article{
-        .main{
-            .title{
-                font-size: var(--size-5xl);
-            }
-            .subtitle{
-                font-size: var(--size-base);
-            }
-        }
-    }
     main{
         .wrapper{
             .wrapper-item{
@@ -161,27 +135,6 @@ main{
 
 /* xs */
 @media (max-width: 639px) {
-    header {
-        nav{
-            font-size: var(--size-xs);
-            .logo{
-                align-items: center;
-            }
-            .nav-buttons{
-                gap: 5px;
-            }
-        }
-    }
-    article{
-        .main{
-            .title{
-                font-size: var(--size-4xl);
-            }
-            .subtitle{
-                font-size: var(--size-sm);
-            }
-        }
-    }
     main{
         padding: 80px 0;
         .wrapper{
