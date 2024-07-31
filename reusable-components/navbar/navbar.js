@@ -6,22 +6,16 @@ export async function loadNavbar() {
     document.getElementById('navbar-container').innerHTML = navbarHtml;
 
 
-    const bars = document.querySelector('.openNav');
-    const close = document.querySelector('.closeNav');
-    const mobileNav = document.querySelector('.mobile-nav');
+    const toggleNav = (show) => {
+        const displayStyle = show ? 'flex' : 'none';
+        document.querySelector('.openNav').style.display = show ? 'none' : 'flex';
+        document.querySelector('.closeNav').style.display = displayStyle;
+        document.querySelector('.mobile-nav').style.display = displayStyle;
+        document.querySelector('header').style.backgroundColor = show ? 'var(--color-darkgrey)' : 'var(--color-black)';
+    };
 
-    bars.addEventListener('click', () => {
-        bars.style.display = 'none';
-        close.style.display = 'flex';
-        mobileNav.style.display = 'flex';
-        document.querySelector('header').style.backgroundColor = 'var(--color-darkgrey)';
-    })
-    close.addEventListener('click', () => {
-        bars.style.display = 'flex';
-        close.style.display = 'none';
-        mobileNav.style.display = 'none';
-        document.querySelector('header').style.backgroundColor = 'var(--color-black)';
-    })
+    document.querySelector('.openNav').addEventListener('click', () => toggleNav(true));
+    document.querySelector('.closeNav').addEventListener('click', () => toggleNav(false));
 }
 
 
