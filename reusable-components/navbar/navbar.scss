@@ -48,13 +48,16 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 30px 0;
+    padding: 75px 0;
     display: none;
     .mobile-btn{
         border: 1px solid transparent;
         width: 60%;
         font-size: var(--size-2xl);
         padding: 16px 0;
+        &:hover{
+            color: grey;
+        }
     }
     .mobile-btn:first-child{
         border-bottom: 1px solid var(--color-white);
