@@ -1,0 +1,48 @@
+
+
+/* lg */
+@media (max-width: 1279px) {
+    article{
+        .main{
+            .title{
+                line-height: 1.2;
+            }
+        }
+    }
+    main{
+        .wrapper{
+            .wrapper-item{
+                .item__title{
+                    font-size: var(--size-3xl);
+                }
+                .item__list{
+                    li{
+                        a{
+                            font-size: var(--size-base);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* xs */
+@media (max-width: 639px) {
+    article{
+        .main{
+            .list{
+                li{
+                    font-size: var(--size-xs);
+                }
+            }
+            .title{
+                font-size: var(--size-2xl);
+                margin: 10px 0;
+            }
+            .subtitle{
+                font-size: var(--size-xs);
+            }
+        }
+    }
+}

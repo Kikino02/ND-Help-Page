@@ -5,6 +5,7 @@ import { loadWrapper } from '../../reusable-components/wrapper/wrapper.js';
 
 import '../../styles/modern-normalize.css';
 import '../../styles/styles.css';
+import './manage2.scss'
 import '../../styles/utils.css';
 
 loadNavbar();
