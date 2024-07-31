@@ -10,18 +10,18 @@
     transition: 0.3s ease;
 }
 
-button.signIn{
+a.signIn{
     background-color: var(--color-blue);
     border: 1px solid transparent;
 }
-button.signIn:hover{
+a.signIn:hover{
         background-color: var(--color-white);
         color: var(--color-black);
 }
-button.submitRequestBtn{
+a.submitRequestBtn{
     background-color: #191a1b;
 }
-button.submitRequestBtn:hover{
+a.submitRequestBtn:hover{
     background-color: var(--color-white);
     color: var(--color-black);
 }
