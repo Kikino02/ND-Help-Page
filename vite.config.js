@@ -9,7 +9,8 @@ export default defineConfig({
         rollupOptions: {
             input: {
                 main: resolve(__dirname, 'index.html'),
-                astract: resolve(__dirname, './abstract/abstract.html'),
+                abstract: resolve(__dirname, './OtherSites/abstract/abstract.html'),
+                // manage: resolve(__dirname, './OtherSites/manage/manage.html')
             },
         },
     },
