@@ -11,10 +11,13 @@ export default defineConfig({
                 main: resolve(__dirname, 'index.html'),
                 abstract: resolve(__dirname, './OtherSites/abstract/abstract.html'),
                 manage: resolve(__dirname, './OtherSites/manage/manage.html'),
+                manage2: resolve(__dirname, './OtherSites/manage2/manage2.html'),
 
+                // reusable-components
                 navbar: resolve(__dirname, './reusable-components/navbar/navbar.html'),
                 article: resolve(__dirname, './reusable-components/article/article.html'),
                 footer: resolve(__dirname, './reusable-components/footer/footer.html'),
+                wrapper: resolve(__dirname, './reusable-components/wrapper/wrapper.html')
             },
         },
     },

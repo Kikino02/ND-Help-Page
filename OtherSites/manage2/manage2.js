@@ -5,13 +5,12 @@ import { loadWrapper } from '../../reusable-components/wrapper/wrapper.js';
 
 import '../../styles/modern-normalize.css';
 import '../../styles/styles.css';
-import './manage.scss'
 import '../../styles/utils.css';
-
 
 loadNavbar();
 loadFooter();
 loadArticle();
+
 
 const wrapperData = [
     {
