@@ -28,25 +28,40 @@ header{
         .nav-buttons{
             display: flex;
             gap: 15px;
-            .submitRequestBtn{
-                background-color: #191a1b;
-                &:hover{
-                    background-color: var(--color-white);
-                    color: var(--color-black);
-                }
-            }
-            .signIn{
-                background-color: var(--color-blue);
-                border: 1px solid transparent;
-                transition: 0.3s ease;
-                &:hover{
-                    background-color: var(--color-white);
-                    color: var(--color-black);
-                }
+            align-items: center;
+            .bx{
+                color: var(--color-white);
+                font-size: var(--size-4xl);
+                display: none;
+                cursor: pointer;
             }
         }
     }
 }
+
+.mobile-nav{
+    position: absolute;
+    z-index: 99999;
+    width: 100%;
+    background-color: var(--color-darkgrey);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0;
+    display: none;
+    .mobile-btn{
+        border: 1px solid transparent;
+        width: 30%;
+        font-size: var(--size-2xl);
+        padding: 16px 0;
+    }
+    .mobile-btn:first-child{
+        border-bottom: 1px solid var(--color-white);
+        border-radius: 0;
+    }
+}
+
+
 
 
 
@@ -62,19 +77,15 @@ header{
 @media (max-width: 767px) {
     header nav{
         font-size: var(--size-lg);
-    }
-}
-
-/* xs */
-@media (max-width: 639px) {
-    header {
-        nav{
-            font-size: var(--size-xs);
-            .logo{
-                align-items: center;
+        .nav-buttons{
+            .submitRequestBtn{
+                display: none;
             }
-            .nav-buttons{
-                gap: 5px;
+            .signIn{
+                display: none;
+            }
+            .openNav{
+                display: flex;
             }
         }
     }
