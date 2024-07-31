@@ -3,7 +3,6 @@ import { loadFooter } from './reusable-components/footer/footer.js';
 
 import './styles/modern-normalize.css';
 import './styles/styles.css';
-import './styles/components/header.css';
 import './styles/components/help.css';
 import './styles/components/cards.css';
 import './styles/utils.css';
