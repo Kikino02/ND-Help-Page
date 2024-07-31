@@ -18,7 +18,6 @@ export default defineConfig({
                 navbar: resolve(__dirname, './reusable-components/navbar/navbar.html'),
                 article: resolve(__dirname, './reusable-components/article/article.html'),
                 footer: resolve(__dirname, './reusable-components/footer/footer.html'),
-                wrapper: resolve(__dirname, './reusable-components/wrapper/wrapper.html')
             },
         },
     },
