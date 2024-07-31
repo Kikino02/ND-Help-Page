@@ -34,10 +34,15 @@ function updateArticleContent() {
             titleElement.textContent = listItem.textContent;
             subtitleElement.textContent = 'Set up and configure SSO, SCIM, and Just-in-Time provisioning.';
             break;
-        case pageTitle.includes('Abstract support'):
+        case pageTitle.includes('abstract support'):
             listItem.textContent = 'Abstract support'
             titleElement.textContent = listItem.textContent;
             subtitleElement.textContent = 'Get in touch with a human.';
+            break;
+        default:
+            listItem.textContent = 'Using Abstract';
+            titleElement.textContent = listItem.textContent;
+            subtitleElement.textContent = "Abstract lets you manage, version, and document your designs in one place.";
             break;
     }
 }

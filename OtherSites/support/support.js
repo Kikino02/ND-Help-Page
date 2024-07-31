@@ -5,7 +5,7 @@ import { loadWrapper } from '../../reusable-components/wrapper/wrapper.js';
 
 import '../../styles/modern-normalize.css';
 import '../../styles/styles.css';
-import './manage3.scss';
+import './support.scss'
 import '../../styles/utils.css';
 
 loadNavbar();
@@ -13,13 +13,12 @@ loadFooter();
 loadArticle();
 
 
+
 const wrapperData = [
     {
-        title: 'Manage billing',
+        title: 'Abstract Support',
         links: [
-            { href: '', text: 'Change your subscription' },
-            { href: '', text: 'Manage billing details' },
-            { href: '', text: 'View your billing details and invoices' },
+            { href: '', text: 'Contact Support' },
         ],
     }
 ];

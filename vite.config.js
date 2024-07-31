@@ -13,6 +13,8 @@ export default defineConfig({
                 manage: resolve(__dirname, './OtherSites/manage/manage.html'),
                 manage2: resolve(__dirname, './OtherSites/manage2/manage2.html'),
                 manage3: resolve(__dirname, './OtherSites/manage3/manage3.html'),
+                authenticate: resolve(__dirname, './OtherSites/authenticate/authenticate.html'),
+                support: resolve(__dirname, './OtherSites/support/support.hmtl'),
 
                 // reusable-components
                 navbar: resolve(__dirname, './reusable-components/navbar/navbar.html'),
