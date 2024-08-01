@@ -9,12 +9,12 @@ export default defineConfig({
         rollupOptions: {
             input: {
                 main: resolve(__dirname, 'index.html'),
-                abstract: resolve(__dirname, './OtherSites/abstract/abstract.html'),
-                manage: resolve(__dirname, './OtherSites/manage/manage.html'),
-                manage2: resolve(__dirname, './OtherSites/manage2/manage2.html'),
-                manage3: resolve(__dirname, './OtherSites/manage3/manage3.html'),
-                authenticate: resolve(__dirname, './OtherSites/authenticate/authenticate.html'),
-                support: resolve(__dirname, './OtherSites/support/support.html'),
+                abstract: resolve(__dirname, './Site/abstract/using-abstract.html'),
+                manage: resolve(__dirname, './Site/manage/manage-billing/manage.html'),
+                manage2: resolve(__dirname, './Site/manage/manage-organizations/manage.html'),
+                manage3: resolve(__dirname, './Site/manage/manage/billing/manage.html'),
+                authenticate: resolve(__dirname, './Site/authenticate-to-abstract/authenticate.html'),
+                support: resolve(__dirname, './Site/support/support.html'),
 
                 // reusable-components
                 navbar: resolve(__dirname, './reusable-components/navbar/navbar.html'),
