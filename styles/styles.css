@@ -35,8 +35,14 @@ html{
 
 body{
     font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
 }
 
 a{
     text-decoration: none;
+}
+
+#footer-container{
+    position: sticky;
+    top: 100%;
 }

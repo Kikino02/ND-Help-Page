@@ -1,3 +1,5 @@
+
+
 footer {
     background-color: var(--color-black);
     color: var(--color-white);
@@ -16,13 +18,13 @@ footer {
       width: 20%;
   
       .item__name {
-        font-size: var(--size-xl);
-        margin-bottom: var(--size-lg);
+        font-size: var(--size-3xl);
+        margin-bottom: var(--size-xl);
       }
   
       .item__link {
         color: var(--color-white);
-        font-size: var(--size-sm);
+        font-size: var(--size-lg);
   
         &:hover {
           text-decoration: underline;
@@ -36,12 +38,12 @@ footer {
       }
   
       .item__sm {
-        font-size: var(--size-base);
+        font-size: var(--size-lg);
         margin-top: var(--size-xl);
       }
   
       .item__link-sm {
-        font-size: var(--size-sm);
+        font-size: var(--size-base);
         color: var(--color-white);
   
         &:hover {
