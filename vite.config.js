@@ -12,7 +12,7 @@ export default defineConfig({
                 abstract: resolve(__dirname, './Site/abstract/using-abstract.html'),
                 manage: resolve(__dirname, './Site/manage/manage-billing/manage.html'),
                 manage2: resolve(__dirname, './Site/manage/manage-organizations/manage.html'),
-                manage3: resolve(__dirname, './Site/manage/manage/billing/manage.html'),
+                manage3: resolve(__dirname, './Site/manage/manage-billing/manage.html'),
                 authenticate: resolve(__dirname, './Site/authenticate-to-abstract/authenticate.html'),
                 support: resolve(__dirname, './Site/support/support.html'),
 
